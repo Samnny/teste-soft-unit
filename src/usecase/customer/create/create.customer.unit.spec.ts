@@ -52,7 +52,7 @@ describe("Unit test create customer use case", () => {
         )
     })
 
-    it("should thrown an error when name is missing", async () => {
+    it("should thrown an error when address is missing", async () => {
 
         const customerRepository = MockRepository()
         const customerCreateUseCase = new CreateCustomerUseCase (customerRepository)

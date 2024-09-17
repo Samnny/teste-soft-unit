@@ -1,8 +1,5 @@
-import { removeTicks } from "sequelize/types/utils";
 import CustomerRepositoryInterface from "../../../domain/customer/repository/customer-repository.interface";
 import { InputCreateCustomerDto, OutputCreateCustomerDto } from "./create.customer.dto";
-import { v4 as uuid } from "uuid";
-import Customer from "../../../domain/customer/entity/customer";
 import CustomerFactory from "../../../domain/customer/factory/customer.factory";
 import Address from "../../../domain/customer/value-object/address";
 
