@@ -17,13 +17,13 @@ describe("Product unit tests", () => {
     it("should throw error when price is less than zero", () => {
         expect(() => {
             const product = new Product("123", "Product 1", -1)
-        }).toThrow("product: Price must be greater than zero")
+        }).toThrow("product: Price must be greater than or equal to 1")
     })
 
     it("should throw error when price is less than zero", () => {
         expect(() => {
             const product = new Product("", "", -1)
-        }).toThrow("product: Id is required,product: Name is required,product: Price must be greater than zero")
+        }).toThrow("product: Id is required,product: Name is required,product: Price must be greater than or equal to 1")
     })
 
     it("should change name", () => {
