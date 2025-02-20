@@ -1,10 +1,6 @@
-import { Sequelize } from "sequelize-typescript"
-import CustomerModel from "../../../infrastructure/customer/repository/sequelize/customer.model"
-import CustomerRepository from "../../../infrastructure/customer/repository/sequelize/customer.repository"
-import Customer from "../../../domain/customer/entity/customer"
-import { v4 as uuid } from "uuid"
-import Address from "../../../domain/customer/value-object/address"
-import FindCustomerUseCase from "./find.customer.usecase"
+import Customer from "../../../../src/domain/customer/entity/customer"
+import Address from "../../../../src/domain/customer/value-object/address"
+import FindCustomerUseCase from "../../../../src/usecase/customer/find/find.customer.usecase"
 
 const customer = new Customer("123", "Samn")
 const address = new Address("Rua 2", 10, "12560-789", "Fortal")

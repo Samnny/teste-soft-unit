@@ -1,5 +1,5 @@
-import Product from "../../../domain/product/entity/product"
-import FindProductUseCase from "./find.product.usecase"
+import Product from "../../../../src/domain/product/entity/product"
+import FindProductUseCase from "../../../../src/usecase/product/find/find.product.usecase"
 
 const product = new Product("123", "Product", 2)
 const MockRepository = () => {

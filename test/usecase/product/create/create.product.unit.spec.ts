@@ -1,4 +1,4 @@
-import CreateProductUseCase from "./create.product.usecase"
+import CreateProductUseCase from "../../../../src/usecase/product/create/create.product.usecase"
 
 const input = {
     name: "Product",

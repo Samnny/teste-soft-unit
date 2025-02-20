@@ -1,9 +1,9 @@
-import EventDispatcher from "../../@shared/event/event-dispatcher"
-import CustomerChangeAddressEvent from "./customer-change-address.event"
-import CustomerCreatedEvent from "./customer-created.event"
-import SendConsoleLog1IsCreateHandler from "./handler/send-console-log-1.handler"
-import SendConsoleLog2IsCreateHandler from "./handler/send-console-log-2.handler"
-import SendConsoleLogIsChangeAddressHandler from "./handler/send-console-log-change-address.handler"
+import EventDispatcher from "../../../../src/domain/@shared/event/event-dispatcher"
+import CustomerChangeAddressEvent from "../../../../src/domain/customer/event/customer-change-address.event"
+import CustomerCreatedEvent from "../../../../src/domain/customer/event/customer-created.event"
+import SendConsoleLog1IsCreateHandler from "../../../../src/domain/customer/event/handler/send-console-log-1.handler"
+import SendConsoleLog2IsCreateHandler from "../../../../src/domain/customer/event/handler/send-console-log-2.handler"
+import SendConsoleLogIsChangeAddressHandler from "../../../../src/domain/customer/event/handler/send-console-log-change-address.handler"
 
 
 describe("Customer created test", () => {

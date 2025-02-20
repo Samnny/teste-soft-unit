@@ -1,4 +1,4 @@
-import { app, sequelize } from "../express"
+import { app, sequelize } from "../../../../src/infrastructure/api/express"
 import request from "supertest"
 
 describe("E2E test for product", () => {

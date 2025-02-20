@@ -1,5 +1,5 @@
-import Address from "../value-object/address"
-import Customer from "./customer"
+import Address from "../../../../src/domain/customer/value-object/address"
+import Customer from "../../../../src/domain/customer/entity/customer"
 
 describe("Customer unit tests", () => {
     

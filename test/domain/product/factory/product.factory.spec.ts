@@ -1,4 +1,4 @@
-import ProductFactory from "./product.factory"
+import ProductFactory from "../../../../src/domain/product/factory/product.factory"
 
 describe("Product factory unit test", () => {
     

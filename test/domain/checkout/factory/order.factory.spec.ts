@@ -1,5 +1,5 @@
 import { v4 as uuid } from "uuid"
-import OrderFactory from "./order.factory"
+import OrderFactory from "../../../../src/domain/checkout/factory/order.factory"
 
 describe("Order factory unit test", () => {
 

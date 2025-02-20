@@ -1,4 +1,4 @@
-import Notification from "./notification"
+import Notification from "../../../../src/domain/@shared/notification/notification"
 
 describe("Unit tests for notifications", () => {
 
