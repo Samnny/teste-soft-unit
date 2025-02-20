@@ -107,5 +107,5 @@
   },
   "include": [
     "src/**/*.ts"
-  ],
+, "test/domain/product/entity/product.spec.ts", "test/infrastructure/customer/repository/sequelize/customer.repository.spec.ts", "test/infrastructure/product/repository/sequelize/product.repository.spec.ts"  ],
 }

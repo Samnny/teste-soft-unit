@@ -1,5 +1,4 @@
-import ProductFactory from "../../../domain/product/factory/product.factory"
-import ListProductUseCase from "./list.product.usecase"
+
 
 const product1 = ProductFactory.create("Product", 1)
 
